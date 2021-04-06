@@ -1,0 +1,10 @@
+export declare const isArray: <T>(value: any) => T[];
+export declare const map: <T, R>(func: (value: T, index: number, arr: T[]) => R) => (value: T[]) => R[];
+export declare const reduce: <T, R = T>(reducer: (previous: R, current: T) => R, initialValue?: R | undefined) => (value: T[]) => R;
+export declare const filter: <T>(func: (value: T, index: number, arr: T[]) => boolean) => (value: T[]) => T[];
+export declare const sort: <T>(func: (a: T, b: T) => number) => (value: T[]) => T[];
+export declare const reverse: <T>(value: T[]) => T[];
+export declare const slice: (start: number, end: number) => <T>(value: T[]) => T[];
+export declare const largest: (value: number[]) => number;
+export declare const smallest: (value: number[]) => number;
+export { average } from "../util/math";

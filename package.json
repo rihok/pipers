@@ -1,0 +1,23 @@
+{
+  "name": "pipers",
+  "version": "0.0.1",
+  "description": "Create Pipe functions, with async and TypeScript support.",
+  "main": "dist/index.js",
+  "author": "Riho Kroll",
+  "license": "MIT",
+  "private": false,
+  "keywords": ["pipe", "pipers", "transform", "transformers", "chain", "validate", "validation", "ts", "typescript", "input"],
+  "scripts": {
+    "start": "tsc -watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rihok/pipers"
+  },
+  "bugs": "https://github.com/rihok/pipers/issues",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "files": ["dist/**/*"]
+}
